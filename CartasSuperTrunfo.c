@@ -90,7 +90,7 @@ int main(){
     printf("PIB: %f \n" , PIB2);
     printf("Quantidade de Pontos Turísticos da Cidade: %i \n" , Pontos2);
 
-
+    return 0;
 
 
 }
