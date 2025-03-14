@@ -66,8 +66,9 @@ int main(){
 
     printf("Quantidade de Pontos Turísticos da Cidade: \n");
     scanf("%i" , &Pontos2);
-
-    //Ínicio dos resultados das cartas cadastradas - CARTA 1
+    
+    //Aqui será emitido os resultados das cartas cadastradas somente com a função de printf (sem os &)
+    // CARTA 1
 
     printf("Cartas Cadastradas \n");
     printf("\n Carta 1 : \n");
@@ -90,6 +91,7 @@ int main(){
     printf("PIB: %f \n" , PIB2);
     printf("Quantidade de Pontos Turísticos da Cidade: %i \n" , Pontos2);
 
+    //COMANDO USADO PARA RECONFERIR O CÓDIGO TODO, PERFEITO PARA TODAS OCASIÇÕES EU TE AMO RETURN 0;
     return 0;
 
 
