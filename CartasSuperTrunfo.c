@@ -8,8 +8,6 @@ int main(){
     //Área - Pede a área em km² do estado
     //PIB - Pede o PIB do devido estado
     //Pontos - Pede os pontos turísticos da cidade
-
-    //ATENÇÃO NÃO POR ESPAÇAMENTOS NAS RESPOSTAS, O CÓDIGO NÃO SUPORTA ELES
     
     char Estado1[5], Estado2[5];
     char Código1[5], Código2[5];
@@ -19,9 +17,11 @@ int main(){
     float PIB1, PIB2;
     int Pontos1, Pontos2;
 
+    printf("\n BEM VINDO AO SUPER TRUNFO!! \n");
+
     //primeira carta
 
-    printf("Primeira Carta. \n");
+    printf("\n Primeira Carta. \n");
     printf("Digite a letra do Estado (Ex: RJ): \n");
     scanf("%s" , &Estado1);
 
@@ -66,9 +66,8 @@ int main(){
 
     printf("Quantidade de Pontos Turísticos da Cidade: \n");
     scanf("%i" , &Pontos2);
-    
-    //Aqui será emitido os resultados das cartas cadastradas somente com a função de printf (sem os &)
-    // CARTA 1
+
+    //Ínicio dos resultados das cartas cadastradas - CARTA 1
 
     printf("Cartas Cadastradas \n");
     printf("\n Carta 1 : \n");
@@ -91,7 +90,6 @@ int main(){
     printf("PIB: %f \n" , PIB2);
     printf("Quantidade de Pontos Turísticos da Cidade: %i \n" , Pontos2);
 
-    //COMANDO USADO PARA RECONFERIR O CÓDIGO TODO, PERFEITO PARA TODAS OCASIÇÕES EU TE AMO RETURN 0;
     return 0;
 
 
