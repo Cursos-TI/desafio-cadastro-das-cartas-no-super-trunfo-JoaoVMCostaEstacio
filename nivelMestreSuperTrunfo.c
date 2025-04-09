@@ -141,7 +141,8 @@ int main(){
     printf("PIB da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", PibComp);
     printf("Quantidade de Pontos Turísticos da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", Ponto);
     printf("Densidade Populacional da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", Dens);
-    printf("PIB da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", Super);
+    printf("PIB da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", PibperCap);
+    printf("Super Poder da Carta 1 supera a da carta 2 (1:SIM 0:NÃO) ? %d \n", Super);
 
     return 0;
 
